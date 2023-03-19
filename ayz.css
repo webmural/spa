@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-flex; 
+}
+
+:any-link {
+  cursor: cell;
+  text-decoration-style: dotted;
+  text-decoration-thickness: .1em;
+}
+
+:focus {
+  outline: .1em dotted;
+}
+
+:hover {
+  text-decoration-style: solid;
+}
+
+html {
+  font-size: max(3ch, 2vmax + 3vmin);
+  line-height: 2;
+}
+
+body {
+  margin: auto;
+  overflow-wrap: anywhere;
+}
+
+article {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 1ch;
+}
+
+menu {
+  contain: layout;
+  font-family: monospace;
+  margin: auto auto 2em;
+  list-style: thai;
+}
+
+li {
+  margin: 0 0 1ch;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 2em;
+  margin: auto;
+  min-height: 100vh;
+  text-indent: 1rem;
+  transform: rotate(10deg);
+  writing-mode: sideways-rl;
+}
+
+b {
+  text-shadow: 0 -1vh 0, 0 1vh 0;
+}

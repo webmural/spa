@@ -1,0 +1,37 @@
+::selection {
+  background: darkviolet;
+  color: mistyrose;
+}
+
+:any-link {
+  color: inherit;
+  transition: 210ms ease-in-out;
+}
+
+:focus {
+  background-image: linear-gradient(.3turn, gold 0%, gold 10%, plum 10%, plum 90%, gold 90%);
+}
+
+html {
+  background: mistyrose;
+  background-image: conic-gradient(
+    mistyrose 0%,
+    mistyrose 20%, 
+    lightpink 20%,
+    lightpink 30%,
+    hotpink 30%,
+    hotpink 40%,
+    thistle 40%,
+    thistle 50%,
+    violet 50%,
+    violet 60%,
+    pink 60%,
+    pink 70%,
+    plum 70%,
+    plum 80%,
+    mistyrose 70%,
+    mistyrose 100%
+  );
+  color: indigo;
+  transition: 210ms ease-in-out;
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>gradient</title>
+  <style>
+    svg {
+      background-color: mistyrose;
+      background-image: conic-gradient(
+        mistyrose 0%,
+        mistyrose 20%, 
+        lightpink 20%,
+        lightpink 30%,
+        hotpink 30%,
+        hotpink 40%,
+        thistle 40%,
+        thistle 50%,
+        violet 50%,
+        violet 60%,
+        pink 60%,
+        pink 70%,
+        plum 70%,
+        plum 80%,
+        mistyrose 70%,
+        mistyrose 100%
+      );
+    }
+  </style>
+</svg>
